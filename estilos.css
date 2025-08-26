@@ -1,42 +1,69 @@
+/* Seletor body */
 body {
     margin: 0;
-    background-image: url("twitter/nuvens.jpg");
+    background-image: url('twitter/nuvens.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top center;
     font-family: Tahoma, sans-serif;
     font-size: 12pt;
     color: #55acee;
 }
 
+/* Seletor cabecalho */
 #cabecalho {
     width: 100%;
     height: 50px;
     background-color: white;
     padding: 10px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
+/* Seletor a */
 a {
     padding: 15px;
     text-decoration: none;
     color: #55acee;
 }
 
+/* Seletor a:hover */
 a:hover {
-    background-color:#c0deed;
+    background-color: #c0deed;
     color: #ffffff;
     border-radius: 5px;
 }
 
-.inf {
+/* Seletor inf */
+#inf {
     width: 250px;
     float: left;
     margin-left: 50px;
     margin-right: 10px;
-
 }
 
+/* Seletor boxinf */
 .boxinf {
     background-color: #8ec1da;
+    border: 1px solid #0084b4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Seletor tweets */
+#tweets {
+    width: 550px;
+    float: left;
+}
+
+/* Seletor boxtweet */
+.boxtweet {
+    background-color: #ffffff;
+    border: 1px solid #8ec1da;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.boxtweet:hover {
+    background-color: #e9e9e9;
 }
